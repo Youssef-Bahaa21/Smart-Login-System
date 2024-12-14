@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/signup.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark group">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white">SMART LOGIN</a>
+        <button
+          class="btn btn-outline-warning"
+          type="button"
+          onclick="logout()"
+        >
+          Log Out
+        </button>
+      </div>
+    </nav>
+    <div
+      class="container vh-100 d-flex justify-content-center align-items-center"
+    >
+      <div class="group w-75 p-5 text-center">
+        <h1>Welcome <span id="usernamePlaceholder"></span></h1>
+      </div>
+    </div>
+
+    <script src="./javascript/Home.js"></script>
+  </body>
+</html>
